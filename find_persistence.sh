@@ -1,5 +1,5 @@
 #!/bin/bash
-# 02_find_persistence.sh — Blue Team 1 READ-ONLY hunt for common Red Team persistence.
+# find_persistence.sh — Blue Team 1 READ-ONLY hunt for common Red Team persistence.
 # Changes nothing. Run as root on each Linux host.
 # Usage: sudo ./find_persistence.sh [days] | tee /root/persist_$(hostname).txt
 #   days = how far back "recently changed" looks (default 3)
